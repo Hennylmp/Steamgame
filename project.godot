@@ -1,0 +1,25 @@
+; Engine configuration file.
+; Wird von Godot beim Öffnen des Projekts gelesen.
+
+config_version=5
+
+[application]
+
+config/name="Rumble Table"
+config/description="3D-Brett-Partyspiel für bis zu 10 Spieler (Prototyp)"
+run/main_scene="res://scenes/main.tscn"
+config/features=PackedStringArray("4.4", "Forward Plus")
+
+[autoload]
+
+Game="*res://scripts/game.gd"
+
+[display]
+
+window/size/viewport_width=1600
+window/size/viewport_height=900
+window/stretch/mode="canvas_items"
+
+[rendering]
+
+anti_aliasing/quality/msaa_3d=2
